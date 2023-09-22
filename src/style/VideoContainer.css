@@ -1,0 +1,12 @@
+.video-container{
+    position:relative;
+    top:40px;
+    margin-left: 1px;
+}
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns in each row */
+    grid-gap: 20px; /* Add some gap between the cards */
+     column-gap:35px ;
+  }
+  

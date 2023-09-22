@@ -1,0 +1,45 @@
+.watch-page-suggetions{
+    margin-left: 20px;   
+}
+.suggetion-videos{
+    display: flex;
+    width: 30vw;
+    margin-left:40px;
+    margin-bottom: 10px;
+}
+.suggetion-video-thumbnail>img{
+    border-radius: 8px;
+    height: 100px;
+}
+.suggetion-video-thumbnail>img:hover{
+    border-radius: 0;
+    transform: scale(1.01);
+}
+.suggetion-video-title{
+    margin-left: 12px;
+    overflow-wrap: break-word;
+    margin-top:3px;
+    margin-bottom:0px;
+    line-height: 20px;
+    font-weight: 600;  
+    color: black; 
+}
+.suggetion-video-channel-name{
+    margin-left: 12px;
+    overflow-wrap: break-word;
+    margin-top:5px;
+    font-weight: 400;
+    margin-bottom:0px;
+    color: gray;
+}
+.suggetion-video-details>div{
+    margin-top: 5px;
+    display: flex;
+}
+.suggetion-video-details>div>h5{
+    margin-left: 12px; 
+    margin-top:3px;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 0px
+}

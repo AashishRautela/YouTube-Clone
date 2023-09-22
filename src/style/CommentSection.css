@@ -1,0 +1,25 @@
+.comments{
+    width: 53vw;
+}
+.comments > h3{
+    font-weight: 400;
+}
+.circle-user{
+    height:35px;
+    width: 35px;
+}
+.comment{
+    display: flex;
+}
+.comment-user>span,p{
+    margin-left: 10px;
+}
+.comment-replies{
+    margin-left: 40px;
+}
+.user-name{
+    font-weight:500;
+}
+.days{
+    font-size: 14px;
+}

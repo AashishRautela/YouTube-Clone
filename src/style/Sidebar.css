@@ -1,0 +1,33 @@
+.sidebar{
+    padding: 0 16px;
+    box-sizing: border-box;
+    /* position: fixed;  
+     top: 60px;  
+    left: 0; */
+}
+ul{
+    list-style: none;
+    padding: 0 16px;
+}
+.sidebar-items{
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.sidebar-icon >img{
+    height: 23px;
+    width: 23px;
+}
+.sidebar-item-title{
+    padding-left: 20px;
+
+}
+ .sidebar-items:hover{
+    /* background-color: #e2dfdf; */
+    filter: brightness(0.5) invert(1);
+    font-weight: bold
+}
+

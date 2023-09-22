@@ -1,0 +1,5 @@
+.main-container {
+    margin-left: 250px; /* Adjust the margin to match the width of the sidebar */
+    padding-top: 56px; /* Adjust the padding to avoid overlapping with the fixed header */
+    background-color: white;
+  }

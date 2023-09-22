@@ -1,0 +1,150 @@
+.watch-page-container{
+    display:flex ;
+}
+.watch-page {
+    margin-left: 100px;
+    padding-top: 80px;
+    width: 53vw;
+}
+
+iframe {
+    border-radius: 10px;
+    width: 53vw;
+    height: 61vh;
+}
+
+.vdo-description {
+    display: flex;
+}
+
+.vdo-title {
+    margin-top: 3vh;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2vh;
+    /* overflow-wrap: break-word; */
+}
+
+.vdo-details {
+    display: flex;
+    align-items: center;
+}
+
+.vdo-details-left {
+    display: flex;
+    align-items: center;
+}
+
+.left-chnl-name {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.left-chnl-name>i {
+    font-size: 24px;
+}
+
+.vdo-details-left>img {
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+}
+
+.left-chnl-subscribers {
+    font-size: 14px;
+    color: rgb(27, 26, 26);
+    font-weight: 450;
+}
+
+.vdo-details-mid {
+    display: flex;
+    align-items: center;
+}
+
+.vdo-details-right {
+    display: flex;
+    align-items: center;
+}
+
+.join {
+    width: 60px;
+    border: 1px solid rgb(204, 204, 204);
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    color: black;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.join:hover {
+    filter: brightness(0.5) invert(1);
+    border: 1px solid black;
+}
+
+.subs {
+    width: 110px;
+    border: 1px solid rgb(204, 204, 204);
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    color: black !important;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.subs>i {
+    margin-right: 3px;
+}
+
+.subs:hover {
+    filter: brightness(0.5) invert(1);
+    border: 1px solid black;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    border: 1px solid rgb(204, 204, 204);
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    color: black;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.like>i {
+    margin-right: 3px;
+    margin-left: 5px;
+}
+
+.like:hover {
+    filter: brightness(0.5) invert(1);
+    border: 1px solid black;
+}
+
+.share {
+    width: 80px;
+    border: 1px solid rgb(204, 204, 204);
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    color: black;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.share>i {
+    margin-right: 3px;
+}
+
+.share:hover {
+    filter: brightness(0.5) invert(1);
+    border: 1px solid black;
+}
+
+.watch-page-suggetions{
+    padding-top: 80px;
+}
